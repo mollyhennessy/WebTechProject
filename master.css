@@ -5,31 +5,35 @@
 }
 h1 {
   color: whitesmoke;
-  background-color: #6C6F70;
+  background-color: #6c6f70;
   text-align: center;
 }
 h3 {
-  color: #9EB28F
-  ;
+  color: #9eb28f;
   text-align: center;
 }
 h2 {
-  color: #9EB28F
-  ;
+  color: #9eb28f;
   text-align: left;
 }
 p {
-  color: #9EB28F
-  ;
+  color: #9eb28f;
   font-size: 1.2em;
   text-indent: 30px;
 }
-iframe{
-    display: block;
-    margin: auto;
-    
+iframe {
+  display: block;
+  margin: auto;
 }
-
+#bold {
+  font-size: x-large;
+  text-decoration: underline;
+}
+table {
+  color: #005172;
+  background-color: #DAD7CB
+  ;
+}
 body {
   background-color: #006644;
   margin-left: 120px;
@@ -37,9 +41,7 @@ body {
 }
 .navbar {
   overflow: hidden;
-  background-color: #C7D28A
-
-  ;
+  background-color: #c7d28a;
 }
 
 .navbar a {

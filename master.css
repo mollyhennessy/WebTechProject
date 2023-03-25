@@ -25,14 +25,16 @@ iframe {
   display: block;
   margin: auto;
 }
+fieldset {
+  color: #005172;
+}
 #bold {
   font-size: x-large;
   text-decoration: underline;
 }
 table {
   color: #005172;
-  background-color: #DAD7CB
-  ;
+  background-color: #dad7cb;
 }
 body {
   background-color: #006644;
@@ -43,7 +45,19 @@ body {
   overflow: hidden;
   background-color: #c7d28a;
 }
-
+#contactpage {
+  background-color: #dad7cb;
+}
+a {
+  text-decoration: none;
+  color: #6c6f70;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
 .navbar a {
   float: left;
   font-size: 16px;
@@ -53,50 +67,14 @@ body {
   text-decoration: none;
 }
 
-.dropdown {
-  float: left;
-  overflow: hidden;
+.navbar a:hover {
+  background-color: #6c6f70;
+  color: #c7d28a;
 }
-
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+.switcher:hover {
+  background-image: url("second-image.jpg");
 }
-
-.navbar a:hover,
-.dropdown:hover .dropbtn {
-  background-color: lavender;
-  color: navy;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: navy;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: pink;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
+.sitemap {
+  font-size: xx-large;
+  background-color: #9eb28f;
 }

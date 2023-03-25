@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="master.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Oswald?preview.text_type=custom#standard-styles"
+      <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-touch-icon.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body id="contactpage">
+    <h1>Contact Me!</h1>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="roster.html">Meet the Team</a>
+      <a href="history.html">Team History</a>
+      <a href="contact.html">Contact Me</a>
+      <a href="sitemap.html">Site Map</a>
+
+    </div>
+    <fieldset>
+      <legend>Your Information</legend>
+      <div>
+        <label for="Name">
+          Name:
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name here"
+          />
+        </label>
+      </div>
+      <div>
+        <label for="email"
+          >Email:
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email here"
+          />
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Your Comments</legend>
+      <div>
+        Do you support Babson Softball?
+        <label
+          ><input type="radio" name="support" value="yes" />Yes, Roll Beav!
+        </label>
+        <label>
+          <input type="radio" name="support" value="no" />No, I hate women in
+          sports.</label
+        >
+      </div>
+      <div>
+        <div>Leave a comment below!</div>
+        <textarea
+          name="comments"
+          id="comments"
+          cols="25"
+          rows="3"
+          placeholder="Enter your comments here..."
+        ></textarea>
+      </div>
+      <div class="bottom">
+        <input type="submit" name="Submit" />
+        <input type="reset" name="Reset" />
+      </div>
+    </fieldset>
+  </body>
+</html>

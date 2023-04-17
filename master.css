@@ -7,6 +7,10 @@ h1 {
   color: whitesmoke;
   background-color: #6c6f70;
   text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  /* i asked chat GPT how to add a black border around the letters so it was 
+    easier to read.  */
 }
 h3 {
   color: #9eb28f;
@@ -36,6 +40,7 @@ table {
   color: #005172;
   background-color: #dad7cb;
 }
+
 body {
   background-color: #006644;
   margin-left: 120px;
@@ -65,6 +70,8 @@ img {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .navbar a:hover {
@@ -77,4 +84,17 @@ img {
 .sitemap {
   font-size: xx-large;
   background-color: #9eb28f;
+}
+table {
+  margin: auto;
+  width: 100%;
+}
+#pics {
+  background-color: #006644;
+  border-collapse: collapse;
+  width: 100%;
+}
+#pics img {
+  width: 550px;
+  display: block;
 }

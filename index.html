@@ -25,11 +25,12 @@
       <a href="contact.html">Contact Me</a>
       <a href="sitemap.html">Site Map</a>
     </div>
-
+    <div id="scrolldiv">
+    <h3 id="scroll"></h2></div>
     <iframe
       width="560"
       height="315"
-      src="https://www.youtube.com/embed/LRb0l3xA1U0"
+      src="https://www.youtube.com/embed/LRb0l3xA1U0?mute=1&autoplay=1"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -38,7 +39,47 @@
     <h3>This video provides insight on the program's history and values.</h3>
 
     <!-- here I want to do some java script play around  -->
-
-    <a href="proposal.html">link to my proposal</a>
+    <table id="pics">
+      <tr>
+        <td><img src="FtmsfYBWcAA90v5.jpg" /></td>
+        <td><img src="Hennessy_WPI-245.jpg" /></td>
+      </tr>
+      <tr>
+        <td><img src="rtz7e6kvjr2yc1qv.jpg" /></td>
+        <td><img src="imagesb1.jpg" /></td>
+      </tr>
+    </table>
+    <script>
+      const Cheers = [
+        "Get it going, get it, get it going",
+        "Enjoy! Enjoy! Enjoy! Enjoy!",
+        "Who's that up to bat?",
+        "Swing that bat and bust that ball, Honey!",
+        "Saddle Up!",
+      ];
+      
+      const cheersEl = document.getElementById("scroll");
+      let index = 0;
+    
+      function whee() {
+        cheersEl.innerHTML = Cheers[index];
+        cheersEl.style.visibility = 'visible';
+    
+        setTimeout(() => {
+          cheersEl.style.visibility = 'hidden';
+          index++;
+          if (index === Cheers.length) {
+            index = 0;
+          }
+          whee();
+        }, 3000);
+      }
+    
+      document.addEventListener("DOMContentLoaded", function() {
+        whee();
+      });
+    </script>
+    
   </body>
 </html>
+<!-- the javascript was inspired by lec21-js-moving-lyrics.html -->

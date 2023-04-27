@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="softball, babson, contact" />
+
     <title>Contact Page</title>
     <link rel="stylesheet" href="master.css" />
     <link
@@ -28,6 +30,7 @@
       <a href="sitemap.html">Site Map</a>
 
     </div>
+    <form action="/form-info" method="POST">
     <fieldset>
       <legend>Your Information</legend>
       <div>
@@ -58,7 +61,7 @@
       <div>
         Do you support Babson Softball?
         <label
-          ><input type="radio" name="support" value="yes" />Yes, Roll Beav!
+          ><input type="radio" name="support" value="yes" required/>Yes, Roll Beav!
         </label>
         <label>
           <input type="radio" name="support" value="no" />No, I hate women in
@@ -80,5 +83,8 @@
         <input type="reset" name="Reset" />
       </div>
     </fieldset>
+    </form>
   </body>
 </html>
+<!-- need something to say that the support must be answered. -->
+<!-- come back to form  -->

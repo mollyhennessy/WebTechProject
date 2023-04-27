@@ -3,6 +3,9 @@
 * {
   font-family: "Oswald", sans-serif;
 }
+html {
+  font-size: 19px;
+}
 h1 {
   color: whitesmoke;
   background-color: #6c6f70;
@@ -23,7 +26,7 @@ h2 {
 p {
   color: #9eb28f;
   font-size: 1.2em;
-  text-indent: 30px;
+  text-indent: 1.3em;
 }
 iframe {
   display: block;
@@ -33,18 +36,19 @@ fieldset {
   color: #005172;
 }
 #bold {
-  font-size: x-large;
+  font-size: 1.7em;
   text-decoration: underline;
 }
 table {
   color: #005172;
   background-color: #dad7cb;
+  width: 100%;
 }
 
 body {
   background-color: #006644;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .navbar {
   overflow: hidden;
@@ -62,13 +66,14 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+  max-width: 100%;
 }
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 1.2em;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2% 2%;
   text-decoration: none;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;

@@ -41,6 +41,19 @@
         <a href="website-plan/rough sitemap/proposal.html">My Proposal</a>
       </li>
     </ul>
+    <h1 id="words"></h1>
+    <div id="container">
+      <button id="btn">Click me!</button>
+    </div>
+    <script>
+      const newText = document.getElementById("words");
+      function display() {
+        newText.innerText = "Thanks for looking at my website!";
+      }
+      document.addEventListener("click", function () {
+        display();
+      });
+    </script>
   </body>
 </html>
 <!-- I want to make the bullet points softballs-->

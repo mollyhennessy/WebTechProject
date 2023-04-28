@@ -27,6 +27,7 @@
       <a href="history.html">Team History</a>
       <a href="contact.html">Contact Me</a> <a href="sitemap.html">Site Map</a>
     </div>
+    <h3>Hover over the picture below!</h3>
     <img src="beaverlogoOG.webp" alt="Original Beaver Logo" id="switch" />
     <h2 id="team">The First Team</h2>
     <p>
@@ -47,7 +48,7 @@
       Tournament in 2017. They have had 6 total appearances in the NCAA
       Tournament.
     </p>
-    <img src="beaverlogoNEW.png" alt="New Beaver Logo" title="New Logo" />
+    <!-- <img src="beaverlogoNEW.png" alt="New Beaver Logo" title="New Logo" /> -->
     <h2 id="team36">Team 36</h2>
     <p>
       Today's team has a roster of sixteen atheletes. The team competes in a 40
@@ -64,16 +65,18 @@
       regularly meets to discuss how to be agood teammate. This has evolved into
       a culture of women making eachother better.
     </p>
-    <!-- <script>
-      function mouseOver() {
-        document.getElementById("switch").src =
-          "beaverlogoOG.webp";
-      }
-      function mouseOut() {
-        document.getElementById("switch").src = "beaverlogoNEW.png";
-      }
-      mouseOver.addEventListener()
-    </script> -->
+    <script>
+      document
+        .getElementById("switch")
+        .addEventListener("mouseover", function () {
+          this.src = "beaverlogoNEW.png";
+        });
+      document
+        .getElementById("switch")
+        .addEventListener("mouseout", function () {
+          this.src = "beaverlogoOG.webp";
+        });
+    </script>
   </body>
 </html>
 <!-- I am thinking about making the photos switch using javascript, but not as of right now.  -->

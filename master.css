@@ -103,3 +103,14 @@ table {
   width: 550px;
   display: block;
 }
+button {
+  border: none;
+  color: #9eb28f;
+  text-align: center;
+  text-decoration: none;
+  height: 4em;
+  width: 6em;
+}
+button:hover {
+  background-color: #6c6f70;
+}

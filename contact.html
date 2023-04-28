@@ -28,63 +28,62 @@
       <a href="history.html">Team History</a>
       <a href="contact.html">Contact Me</a>
       <a href="sitemap.html">Site Map</a>
-
     </div>
     <form action="/form-info" method="POST">
-    <fieldset>
-      <legend>Your Information</legend>
-      <div>
-        <label for="Name">
-          Name:
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Enter your name here"
-          />
-        </label>
-      </div>
-      <div>
-        <label for="email"
-          >Email:
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Enter your email here"
-          />
-        </label>
-      </div>
-    </fieldset>
-    <fieldset>
-      <legend>Your Comments</legend>
-      <div>
-        Do you support Babson Softball?
-        <label
-          ><input type="radio" name="support" value="yes" required/>Yes, Roll Beav!
-        </label>
-        <label>
-          <input type="radio" name="support" value="no" />No, I hate women in
-          sports.</label
-        >
-      </div>
-      <div>
-        <div>Leave your feedback below!</div>
-        <textarea
-          name="comments"
-          id="comments"
-          cols="50"
-          rows="6"
-          placeholder="Enter your comments here..."
-        ></textarea>
-      </div>
-      <div class="bottom">
-        <input type="submit" name="Submit" />
-        <input type="reset" name="Reset" />
-      </div>
-    </fieldset>
+      <fieldset>
+        <legend>Your Information</legend>
+        <div>
+          <label for="Name">
+            Name:
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name here"
+            />
+          </label>
+        </div>
+        <div>
+          <label for="email"
+            >Email:
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email here"
+            />
+          </label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Your Comments</legend>
+        <div>
+          Do you support Babson Softball?
+          <label
+            ><input type="radio" name="support" value="yes" required />Yes, Roll
+            Beav!
+          </label>
+          <label>
+            <input type="radio" name="support" value="no" />No, I hate women in
+            sports.</label
+          >
+          <!-- i found on chat GPT that you can add 'required' to the radio button -->
+        </div>
+        <div>
+          <div>Leave your feedback below!</div>
+          <textarea
+            name="comments"
+            id="comments"
+            cols="50"
+            rows="6"
+            placeholder="Enter your comments here..."
+          ></textarea>
+        </div>
+        <div class="bottom">
+          <input type="submit" name="Submit" />
+          <input type="reset" name="Reset" />
+        </div>
+      </fieldset>
     </form>
   </body>
 </html>
-<!-- need something to say that the support must be answered. -->
-<!-- come back to form  -->
